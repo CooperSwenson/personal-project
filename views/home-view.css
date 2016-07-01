@@ -1,0 +1,55 @@
+.home-div-left {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.home-div-right {
+  height: 100%;
+  width: 50%;
+  float: right;
+  z-index: 1;
+  position: relative;
+  right: 12vw;
+}
+
+.home-div-right img {
+  height: 100vh;
+}
+
+.home-div-left img {
+  height: 50vh;
+  width: auto;
+  position: relative;
+
+}
+
+.forge-text {
+  font-family: "Lato";
+  letter-spacing: 1vw;
+  color: white;
+  float: right;
+  font-size: 4vw;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  top: 25%;
+  right: -10%;
+}
+
+.forge-text2 {
+  font-family: "Lato";
+  letter-spacing: .5vw;
+  color: white;
+  float: right;
+  font-size: 2vw;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  top: 35%;
+  right: -24%;
+}
+/*
+html {
+  background-color: #D3D3D3;
+}*/

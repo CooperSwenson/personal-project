@@ -1,0 +1,141 @@
+.navbar-div {
+  width: 194px;
+  height: 100vh;
+  /*float: right;*/
+  position: fixed;
+  right: 0;
+
+  /*background-image: url("../images/bloodmoonnavbar.png");*/
+}
+
+.main-header {
+  width: auto;
+  height: 100vh;
+  background-image: url("../images/bloodmoonnavbar.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: visible;
+  opacity: 0.99;
+
+}
+
+.cart-button {
+  font-family: "Lato";
+  border-color: transparent;
+  background-color: transparent;
+  color: white;
+  font-size: 2vh;
+  letter-spacing: .25vw;
+    position: absolute;
+    top: 613px;
+    right: 30px;
+    transform: rotate(-45deg);
+}
+
+.cart-button:hover {
+  color: teal;
+  font-weight: bold;
+  font-size: 2.5vh;
+  right: 25px;
+}
+
+.contact-button {
+  font-family: "Lato";
+  border-color: transparent;
+  background-color: transparent;
+  color: white;
+  font-size: 2vh;
+  letter-spacing: .25vw;
+    position: absolute;
+    top: 490px;
+    right: 5px;
+    transform: rotate(-45deg);
+}
+
+.contact-button:hover {
+  color: teal;
+  font-weight: bold;
+  font-size: 2.5vh;
+  right: -3px;
+}
+
+.shirts-button {
+    font-family: "Lato";
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+    font-size: 2vh;
+    letter-spacing: .25vw;
+    position: absolute;
+    top: 222px;
+    right: 10px;
+    transform: rotate(45deg);
+}
+
+.shirts-button:hover {
+  color: teal;
+  font-weight: bold;
+  font-size: 2.5vh;
+  right: 1px;
+}
+
+.headwear-button {
+  font-family: "Lato";
+  border-color: transparent;
+  background-color: transparent;
+  color: white;
+  font-size: 2vh;
+  letter-spacing: .25vw;
+    position: absolute;
+    top: 87px;
+    right: -4px;
+    transform: rotate(45deg);
+    /*transform-origin: left top 0;*/
+}
+
+.headwear-button:hover {
+  color: teal;
+  font-weight: bold;
+  font-size: 2.5vh;
+  right: -15px;
+}
+
+.home-button {
+    width: 65%;
+    height: 17%;
+    border-radius: 50%;
+    position: absolute;
+    border-width: 5px;
+    border-color: transparent;
+    background-color: transparent;
+    top: 312px;
+    right: 63px;
+
+}
+
+.home-button:hover {
+  border-style: solid;
+	border-color: teal;
+}
+
+button:focus {
+  outline:0;
+}
+
+.facebook-logo {
+  top: 707px;
+  right: 46px;
+  position: absolute;
+}
+
+.instagram-logo {
+    top: 707px;
+    right: 85px;
+    position: absolute;
+}
+
+.twitter-logo {
+  top: 707px;
+  right: 8px;
+  position: absolute;
+}

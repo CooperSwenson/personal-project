@@ -1,0 +1,59 @@
+.tshirt-div {
+  /*width: 70vw;*/
+  height: 100vh;
+  display: flex;
+  padding-top: 2vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 100px;
+  /*background-color: green;*/
+}
+
+.shirt-div {
+  background-color: #D3D3D3;
+  height: 85vh;
+  width: 26vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  margin: 3vh;
+}
+
+.shirt-div img {
+  width: 23vw;
+  height: auto;
+  align-self: center;
+  margin-bottom: 1.5vh;
+
+}
+
+.shirt-div h1 {
+  font-family: "Lato";
+  font-size: 2.75vh;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.shirt-div h2 {
+  font-family: "Lato";
+  font-size: 3.5vh;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.buynow-button {
+  font-family: "Lato";
+  width: 8vw;
+  height: 5vh;
+  align-self: center;
+  background-color: #A9A9A9;
+  font-size: 2vh;
+  letter-spacing: .1vw;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.shirt-size-input {
+  margin-bottom: 1vh;
+}

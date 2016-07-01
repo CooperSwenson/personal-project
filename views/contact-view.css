@@ -1,0 +1,33 @@
+.contact-info-div {
+  width: 30vw;
+  height: 80vh;
+  background-color: transparent;
+  position: absolute;
+  top:100px;
+  left: 20px;
+  padding-top: 50px;
+
+  z-index: 1;
+}
+
+.background-image-contact {
+  right: -100px;
+}
+
+.contact-info-div h2 {
+  color: black;
+  text-align: center;
+  font-size: 4vh;
+  font-family: "Lato";
+  letter-spacing: .25vw;
+
+}
+
+.contact-info-div h1 {
+  color: black;
+  margin-top: 8vh;
+  text-align: center;
+  font-size: 4vh;
+  font-family: "Lato";
+  letter-spacing: .25vw;
+}
