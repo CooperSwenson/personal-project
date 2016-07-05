@@ -1,0 +1,20 @@
+<div class="navbar-div">
+  <navbar-directive></navbar-directive>
+</div>
+<div class="tshirt-div">
+  <div ng-repeat="product in products | filter: {type: 'shirt'}" class="shirt-div">
+    <img ng-src="{{product.image}}" alt="" />
+    <h1>{{product.description}}</h1>
+    <h2>{{product.price}}</h2>
+    <select class="shirt-size-input" name="sizes">
+      <option value="" disabled selected>Please select size</option>
+      <option value="XS">XS</option>
+      <option value="Small">Small</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+      <option value="XL">XL</option>
+      <option value="XXL">XXL</option>
+    </select>
+    <button class="buynow-button" onclick="alert('Successfully added to cart!');" type="button" >Add to Cart</button>
+  </div>
+</div>
