@@ -5,10 +5,7 @@ var shirtSchema = require("./shirt-schema.js");
 
 var productSchema = new Schema({
   description: String,
-  price: {
-    type: Number,
-    min: 5
-  },
+  price: Number,
   image: String,
   size: shirtSchema,
   style: hatSchema,

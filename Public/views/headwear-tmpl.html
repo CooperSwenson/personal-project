@@ -5,7 +5,7 @@
   <div ng-repeat="product in products | filter: {type: 'hat'}"  class="hat-div">
     <img ng-src="{{product.image}}" alt="" />
     <h1>{{product.description}}</h1>
-    <h2>{{product.price}}</h2>
-    <button class="buynow-button" onclick="alert('Successfully added to cart!');" type="button" >Add to Cart</button>
+    <h2>${{product.price}}</h2>
+    <button ng-click="addToCart(product._id)" class="buynow-button"  type="button" >Add to Cart</button>
   </div>
 </div>

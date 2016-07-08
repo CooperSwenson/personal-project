@@ -1,3 +1,19 @@
 <div class="navbar-div">
   <navbar-directive></navbar-directive>
 </div>
+<img class="background-image-contact" src="./images/maybe.png" alt="" />
+<div class="cart-info-div">
+<div ng-repeat="item in sessionCart.products" class="cart-item-div">
+    <img ng-src="{{item.image}}" alt="" />
+    <h2>{{item.description}}</h2>
+    <h2>${{item.price}}</h2>
+    <button  ng-click="removeFromCart(item._id)" type="button">Remove</button>
+</div>
+  <footer class="cart-footer">Total Price ${{cartTotal}}
+    <button type="button" class="checkout-button">Checkout Now!</button>
+
+  </footer>
+
+
+
+</div>

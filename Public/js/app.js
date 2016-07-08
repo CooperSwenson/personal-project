@@ -19,7 +19,8 @@ angular.module("mainApp", ["ui.router"])
     })
     .state("cart", {
       url: "/cart",
-      templateUrl: "./views/cart-tmpl.html"
+      templateUrl: "./views/cart-tmpl.html",
+      controller: "cartCtrl"
     })
     .state("contact", {
       url: "/contact",
