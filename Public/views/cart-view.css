@@ -73,11 +73,24 @@
   /*position: fixed;*/
 }
 
-.checkout-button {
+.remove-button {
+    text-align: center;
+    height: 3vh;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 2vh;
+    font-family: "Lato";
+    color: red;
+    position: absolute;
+    right: 3%;
+    /* top: 13%; */
+}
+
+/*.checkout-button {
   text-align: center;
   height: 4vh;
   background-color: transparent;
   border: 2px solid black;
   font-size: 2vh;
   font-family: "Lato";
-}
+}*/

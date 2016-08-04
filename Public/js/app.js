@@ -30,4 +30,8 @@ angular.module("mainApp", ["ui.router"])
       url: "/admin959862fornow",
       templateUrl: "./views/admin-tmpl.html"
     })
+    .state("easter", {
+      url: "/easteregg",
+      templateUrl: "./views/easter-tmpl.html"
+    })
 })

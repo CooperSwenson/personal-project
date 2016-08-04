@@ -7,10 +7,22 @@
     <img ng-src="{{item.image}}" alt="" />
     <h2>{{item.description}}</h2>
     <h2>${{item.price}}</h2>
-    <button  ng-click="removeFromCart(item._id)" type="button">Remove</button>
+    <button  ng-click="removeFromCart(item._id)" type="button" class="remove-button">X</button>
 </div>
   <footer class="cart-footer">Total Price ${{cartTotal}}
-    <button type="button" class="checkout-button">Checkout Now!</button>
+    <!-- <button type="button" class="checkout-button">Checkout Now!</button> -->
+    <form action="" method="POST">
+      <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_test_3NSwj51jgLigqMUSCDvtnRfQ"
+        data-amount="{{cartTotal}}00"
+        data-name="WASD Apparel"
+        data-description="Widget"
+        data-image="/img/documentation/checkout/marketplace.png"
+        data-locale="auto"
+        data-zip-code="true"
+      </script>
+    </form>
 
   </footer>
 
